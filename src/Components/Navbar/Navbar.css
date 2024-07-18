@@ -1,0 +1,45 @@
+.Container{
+    background: black;
+    height: 120px;
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem 3dvb;
+    
+}
+
+.icon{
+    margin: 0 5px;
+}
+
+.iconL{
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.iconLupa{
+    font-size: 25px;
+}
+
+Span{
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+.content{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;    
+}
+
+.secContent{
+    cursor: pointer;
+    &:hover{
+        border-bottom: 2px solid;
+    }
+}

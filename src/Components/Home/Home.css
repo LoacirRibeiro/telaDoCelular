@@ -1,0 +1,105 @@
+.container{
+    background: url('../../assets/bg.webp');
+    height: 75.7vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeDiv{
+    width: 360px;
+    background-color: #ebe9e9;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.valor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #02a84d;
+    border-bottom: 2px solid #ACACAC;
+}
+
+h1{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #02a84d;
+    line-height: 20px;
+    text-align: center;    
+}
+
+.secDiv{
+    width: 100%;
+    padding: 8px;
+    background: #DBDADD;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.primeiro, .terceiro{
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+    
+}
+ .barra{
+    margin: 15px;
+    font-size: 25px;
+    border-right: 2px solid #ACACAC;
+ }
+.span{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.segundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.span1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.divButton{
+     width: 100%;
+     text-align:center;
+}
+
+button{
+    padding: 10px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background: #02a84d;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+

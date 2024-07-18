@@ -1,0 +1,34 @@
+.containerFooter{
+    background: black;
+    color: white;
+    height: 100px;    
+}
+
+.iconsDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.icones{
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        border-bottom: 2px solid white;
+    }
+}
+
+.iconFooter{
+    font-size: 30px;
+}
+
+.iconFooters{
+    font-size: 50px;
+}
+
+.spanFooter{
+    font-size: 14px; 
+    &:hover{
+        font-weight: 600;
+    }   
+}
